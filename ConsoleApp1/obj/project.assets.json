@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\IE-Pc\\.nuget\\packages\\": {}
+    "C:\\Users\\selam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IE-Pc\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\selam\\OneDrive\\Desktop\\C#\\C-Sharp-Exercises-\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\IE-Pc\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\IE-Pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IE-Pc\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\selam\\OneDrive\\Desktop\\C#\\C-Sharp-Exercises-\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\selam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\selam\\OneDrive\\Desktop\\C#\\C-Sharp-Exercises-\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IE-Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\selam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -267,6 +267,12 @@ public class Program
      var n =   glass.hourglassSum(ar1);
         Console.WriteLine(n);
 
+
+        kangaroo kk = new kangaroo();
+      
+     var gg=   kk.kangaroodist(2564, 5393 ,5121, 2836);
+        Console.WriteLine(gg);  
+
         //for (int i = 0; i <= 6; i++)
         //{
         //    for (int j = i; j<=6; j++)
