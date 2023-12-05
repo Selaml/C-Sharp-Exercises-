@@ -272,6 +272,20 @@ public class Program
       
      var gg=   kk.kangaroodist(2564, 5393 ,5121, 2836);
         Console.WriteLine(gg);  
+        rotateArray rotate= new rotateArray();
+        List<int> listRotate = new List<int>() { 1, 2, 3, 4, 5 };
+        var reeee = rotate.rotateLeft(4, listRotate);
+        Console.WriteLine(reeee);
+
+        SearchMAtchingStrings mAtchingStrings= new SearchMAtchingStrings();
+    List<string>listString= new List<string>(){"aba","baba","aba","xzxb"};
+
+        List<string> QString = new List<string>() { "aba", "xzxb", "ab" };
+        var result = mAtchingStrings.matchingStrings(listString, QString);
+        Console.WriteLine(result);
+
+
+
 
         //for (int i = 0; i <= 6; i++)
         //{
