@@ -286,6 +286,13 @@ public class Program
 
 
 
+        RemoveNumber find = new RemoveNumber();
+        int[] liststtttt = { 1, 2, 3, 4, 5, 6, 7 };
+        int[] redddsult = find.RemoveNumberArray(liststtttt, 3);
+
+        Console.WriteLine(redddsult[3]);
+
+
 
         //for (int i = 0; i <= 6; i++)
         //{
@@ -358,7 +365,11 @@ public class Program
         //{
         //    Console.WriteLine(item);
 
+
+
         //}
+
+
 
 
 
