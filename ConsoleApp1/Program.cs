@@ -372,7 +372,11 @@ public class Program
 
 
 
-
+        ///oprators subscribe for the system   they add their own b  
+        ///but what i do is collecto alll the data rom alll subscribers and show it 
+        ///which is better subscribe or rolle based 
+        ///subscription , diffrent services
+        ///user management C# and nest js other 
 
     }
 }
