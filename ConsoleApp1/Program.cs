@@ -233,52 +233,52 @@ public class Program
  });
         ar1.Add(new List<int>() {1, 1, 1, 0 ,0, 0
 });
-        ar1.Add(new List<int>() { 0, 0 ,2, 4 ,4 ,0 });
+        ar1.Add(new List<int>() { 0, 0, 2, 4, 4, 0 });
         ar1.Add(new List<int>() { 0, 0, 0 ,2 ,0 ,0
 });
         ar1.Add(new List<int>() {0, 0, 1, 2, 4, 0
 });
 
-      //  ConsoleApp1 nn = new ConsoleApp1
-         Riverse vv = new Riverse();
+        //  ConsoleApp1 nn = new ConsoleApp1
+        Riverse vv = new Riverse();
         var bb = vv.reverseArray(grades);
         foreach (int i in bb)
         {
             Console.WriteLine(i);
         }
-       //// HourGlass ss = new HourGlass();
-       // var sss = ss.hourglassSum(ar1);
-       // foreach (var k in sss)
-       // {
+        //// HourGlass ss = new HourGlass();
+        // var sss = ss.hourglassSum(ar1);
+        // foreach (var k in sss)
+        // {
 
-       //     Console.WriteLine(k);
+        //     Console.WriteLine(k);
 
-       // }
-      
+        // }
 
-        List<int> list = new List<int>() { -2,2, 1 };
-        List<int> list1 = new List<int>() {5,-6 };
+
+        List<int> list = new List<int>() { -2, 2, 1 };
+        List<int> list1 = new List<int>() { 5, -6 };
 
         SamsThree sam = new SamsThree();
-        sam.countApplesAndOranges(7,11, 5 ,15, list,list1);
+        sam.countApplesAndOranges(7, 11, 5, 15, list, list1);
 
 
         HourGlass glass = new HourGlass();
-     var n =   glass.hourglassSum(ar1);
+        var n = glass.hourglassSum(ar1);
         Console.WriteLine(n);
 
 
         kangaroo kk = new kangaroo();
-      
-     var gg=   kk.kangaroodist(2564, 5393 ,5121, 2836);
-        Console.WriteLine(gg);  
-        rotateArray rotate= new rotateArray();
+
+        var gg = kk.kangaroodist(2564, 5393, 5121, 2836);
+        Console.WriteLine(gg);
+        rotateArray rotate = new rotateArray();
         List<int> listRotate = new List<int>() { 1, 2, 3, 4, 5 };
         var reeee = rotate.rotateLeft(4, listRotate);
         Console.WriteLine(reeee);
 
-        SearchMAtchingStrings mAtchingStrings= new SearchMAtchingStrings();
-    List<string>listString= new List<string>(){"aba","baba","aba","xzxb"};
+        SearchMAtchingStrings mAtchingStrings = new SearchMAtchingStrings();
+        List<string> listString = new List<string>() { "aba", "baba", "aba", "xzxb" };
 
         List<string> QString = new List<string>() { "aba", "xzxb", "ab" };
         var result = mAtchingStrings.matchingStrings(listString, QString);
@@ -378,8 +378,159 @@ public class Program
         ///subscription , diffrent services
         ///user management C# and nest js other 
 
+
+
+        ar1.Add(new List<int>() { 1, 1, 1, 0 ,0 ,0
+});
+        ar1.Add(new List<int>() {0, 1, 0,0 ,0 ,0
+ });
+        ar1.Add(new List<int>() {1, 1, 1, 0 ,0, 0
+});
+        ar1.Add(new List<int>() { 0, 0, 2, 4, 4, 0 });
+        ar1.Add(new List<int>() { 0, 0, 0 ,2 ,0 ,0
+});
+        ar1.Add(new List<int>() {0, 0, 1, 2, 4, 0
+});
+
+        //  ConsoleApp1 nn = new ConsoleApp1
+        Riverse vv = new Riverse();
+        var bb = vv.reverseArray(grades);
+        foreach (int i in bb)
+        {
+            Console.WriteLine(i);
+        }
+        //// HourGlass ss = new HourGlass();
+        // var sss = ss.hourglassSum(ar1);
+        // foreach (var k in sss)
+        // {
+
+        //     Console.WriteLine(k);
+
+        // }
+
+
+        List<int> list = new List<int>() { -2, 2, 1 };
+        List<int> list1 = new List<int>() { 5, -6 };
+
+        SamsThree sam = new SamsThree();
+        sam.countApplesAndOranges(7, 11, 5, 15, list, list1);
+
+
+        HourGlass glass = new HourGlass();
+        var n = glass.hourglassSum(ar1);
+        Console.WriteLine(n);
+
+
+        kangaroo kk = new kangaroo();
+
+        var gg = kk.kangaroodist(2564, 5393, 5121, 2836);
+        Console.WriteLine(gg);
+        rotateArray rotate = new rotateArray();
+        List<int> listRotate = new List<int>() { 1, 2, 3, 4, 5 };
+        var reeee = rotate.rotateLeft(4, listRotate);
+        Console.WriteLine(reeee);
+
+        SearchMAtchingStrings mAtchingStrings = new SearchMAtchingStrings();
+        List<string> listString = new List<string>() { "aba", "baba", "aba", "xzxb" };
+
+        List<string> QString = new List<string>() { "aba", "xzxb", "ab" };
+        var result = mAtchingStrings.matchingStrings(listString, QString);
+        Console.WriteLine(result);
+
+
+
+        RemoveNumber find = new RemoveNumber();
+        int[] liststtttt = { 1, 2, 3, 4, 5, 6, 7 };
+        int[] redddsult = find.RemoveNumberArray(liststtttt, 3);
+
+        Console.WriteLine(redddsult[3]);
+
+
+
+        //for (int i = 0; i <= 6; i++)
+        //{
+        //    for (int j = i; j<=6; j++)
+        //    {
+
+        //            Console.WriteLine("#");
+
+
+
+
+        //    }
+
+        //    Console.WriteLine("");
+
+
+
+        //}
+
+
+        //vv.reverseArray(grades);
+
+
+        // }
+        // Console.WriteLine(list2.Count);
+        // 
+        //var updatedgrades = new List<int>();
+        //foreach (var i in grades)
+        //{
+        //    if (i < 38)
+        //    {
+        //        updatedgrades.Add
+        //            (i);
+        //    }
+        //    else if (i>=38 && i<100)
+        //    {
+
+        //        for(int j = i+1; j <=100; j++)
+        //        {
+        //            if(j%5==0)
+        //            {
+        //                int x = j - i;
+        //                if(x<3)
+        //                {
+        //                    updatedgrades.Add (j);
+        //                    break;
+        //                }
+        //                else
+        //                {
+        //                    updatedgrades.Add (i);  
+        //                    break;
+        //                }              
+        //            }
+
+        //        }
+
+        //    }
+        //    else
+        //    {
+        //        updatedgrades.Add(i);
+        //    }
+
+
+        //}
+
+
+
+
+        //foreach (var item in updatedgrades)
+        //{
+        //    Console.WriteLine(item);
+
+
+
+        //}
+
+
+
+
+        ///oprators subscribe for the system   they add their own b  
+        ///but what i do is collecto alll the data rom alll subscribers and show it 
+        ///which is better subscribe or rolle based 
+        ///subscription , diffrent services
+        ///user management C# and nest js other 
     }
 }
 
 
-    
