@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     public class HigestScore
     {
-        public   List<int> HighScore(List<int> scores)
+        public List<int> HighScore(List<int> scores)
         {
             List<int> Highresult = new List<int>();
             List<int> LowScore = new List<int>();
@@ -17,14 +17,16 @@ namespace ConsoleApp1
             foreach (int i in scores)
             {
 
-                if (i> initialElament  && !Highresult.Contains(i)) {
-              
+                if (i > initialElament && !Highresult.Contains(i))
+                {
+
                     Highresult.Add(i);
 
                 }
-                else if(i <initialElament && !LowScore.Contains(i)) {
-                    LowScore.Add(i);    
-                
+                else if (i < initialElament && !LowScore.Contains(i))
+                {
+                    LowScore.Add(i);
+
                 }
             }
 
