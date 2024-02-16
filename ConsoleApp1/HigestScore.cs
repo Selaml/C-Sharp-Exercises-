@@ -14,15 +14,23 @@ namespace ConsoleApp1
             List<int> LowScore = new List<int>();
             List<int> finalResult = new List<int>();
             int initialElament = scores[0];
+            int initialElament2 = scores[0];
             foreach (int i in scores)
             {
-
-                if (i> initialElament  && !Highresult.Contains(i)) {
               
+
+                if (i > initialElament && !Highresult.Contains(i))
+
+                    {
+
+                    initialElament = i;
                     Highresult.Add(i);
 
+
+
                 }
-                else if(i <initialElament && !LowScore.Contains(i)) {
+                else if(i <initialElament2 && !LowScore.Contains(i)) {
+                   // initialElament = i;
                     LowScore.Add(i);    
                 
                 }

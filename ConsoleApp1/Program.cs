@@ -292,7 +292,15 @@ public class Program
 
         Console.WriteLine(redddsult[3]);
 
+       List<int> listScore = new List<int>() { 3, 4, 21, 36 ,10, 28, 35 ,5 ,24, 42 };
 
+        HigestScore higestScore = new HigestScore();
+      var nn=  higestScore.HighScore(listScore);
+      Console.WriteLine(nn);
+        foreach (int i in nn)
+        {
+            Console.WriteLine(i);
+        }
 
         //for (int i = 0; i <= 6; i++)
         //{
