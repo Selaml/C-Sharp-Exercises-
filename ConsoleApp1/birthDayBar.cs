@@ -8,5 +8,11 @@ namespace ConsoleApp1
 {
     internal class birthDayBar
     {
+        public List<int> bithDay(List<int> s, int d, int m)
+        {
+            List<int> listyyyyyyyy = new List<int>();
+            list.Add(d);
+            return s;
+        }
     }
 }
