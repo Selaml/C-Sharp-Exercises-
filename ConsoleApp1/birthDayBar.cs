@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public List<int> bithDay(List<int> s, int d, int m)
         {
-            List<int> listyyyyyyyy = new List<int>();
+            List<int> listyyyyyynmmmdksksksksksksyy = new List<int>();
             list.Add(d);
             return s;
         }
