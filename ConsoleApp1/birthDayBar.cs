@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class birthDayBar
+    public class birthDayBar
     {
         public List<int> bithDay(List<int> s, int d, int m)
         {
