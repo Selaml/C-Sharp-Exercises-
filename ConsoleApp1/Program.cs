@@ -388,6 +388,14 @@ public class Program
 
 
 
+
+
+        int[,] arr = { { 0,1,1,2}, { 0,5,0,0},{ 2,0,3,3} };
+        CodeBot codeBot = new CodeBot();
+       var cde= codeBot.findRoom(arr);
+
+        Console.WriteLine(cde);
+
     }
 }
 

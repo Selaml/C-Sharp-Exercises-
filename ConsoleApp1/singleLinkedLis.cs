@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class singleLinkedLis
+    public class singleLinkedLis
     {
+      /*  public void printLinkedList(SinglyLinkedListNode head)
+        {
+
+        }*/
     }
 }
