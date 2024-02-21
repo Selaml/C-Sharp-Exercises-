@@ -58,7 +58,34 @@ namespace ConsoleApp1
         }
 
 
+        public Node insertNodeAtHead(int data)
+        {
+            Node node = new Node(data);
+            if (this.head == null)
+            {
+                this.head = node;
+                Console.WriteLine(node.data + "head null");
+              //  return node;
+            }
+            else
+            {
+                node.next = this.head;
 
+                this.head = node;
+                
+                
+                
+                Console.WriteLine(node.data + "head not null");
+              //  return temp;
+            }
+            return head;
+
+        }
+
+
+
+
+   
 
 
     }
