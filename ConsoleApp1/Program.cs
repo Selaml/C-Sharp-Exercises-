@@ -390,11 +390,25 @@ public class Program
 
 
 
-        int[,] arr = { { 0,1,1,2}, { 0,5,0,0},{ 2,0,3,3} };
+        int[,] arr = { { 0,1,1,2}, { 0,5,0,0},{ 2,0,3,13} };
         CodeBot codeBot = new CodeBot();
        var cde= codeBot.findRoom(arr);
 
-        Console.WriteLine(cde);
+        //  Console.WriteLine(cde);
+
+        int[,] arr2 = { { 0, 1, 1, 2 }, { 0, 5, 0, 0 }, { 2, 0, 3, 13 } };
+
+        securityCamera securityCameras = new securityCamera();
+        var vvien = securityCameras.counttheBoxes(arr2);
+
+        Console.WriteLine(vvien);
+
+
+        singleLinkedLis lii = new singleLinkedLis();
+        lii.add(20);
+        lii.add(30);
+        lii.add(40);
+        lii.display();
 
     }
 }
