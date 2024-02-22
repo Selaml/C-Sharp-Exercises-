@@ -97,9 +97,11 @@ namespace ConsoleApp1
             Node temp = this.head;
 
             while(position -- !=0 && temp != null){
-                Node node = new Node(data);
+            
                 if (position == 1)
                 {
+
+                    Node node = new Node(data);
                     node.next = temp.next;
                     temp.next = node;
                     break;
