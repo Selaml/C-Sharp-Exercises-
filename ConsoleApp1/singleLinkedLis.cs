@@ -14,6 +14,8 @@ namespace ConsoleApp1
         public void add(int data)
         {
             Node node = new Node(data);
+
+       
             if (this.head == null)
             {
               this.head = node;
@@ -35,6 +37,7 @@ namespace ConsoleApp1
         }
 
         public void display() {
+
             if(this.head == null)
             {
                 Console.WriteLine("the list is empty");
@@ -58,7 +61,7 @@ namespace ConsoleApp1
         }
 
 
-        public Node insertNodeAtHead(int data)
+        public void insertNodeAtHead(int data)
         {
             Node node = new Node(data);
             if (this.head == null)
@@ -78,14 +81,38 @@ namespace ConsoleApp1
                 Console.WriteLine(node.data + "head not null");
               //  return temp;
             }
-            return head;
+          //  return head;
 
         }
 
 
 
+        public void insertNodeAtPosition( int data, int position)
+        {
+            if (position < 1)
+            {
+                Console.WriteLine("position out of range");
 
-   
+            }
+            Node temp = this.head;
+
+            while(position -- !=0 && temp != null){
+                Node node = new Node(data);
+                if (position == 1)
+                {
+                    node.next = temp.next;
+                    temp.next = node;
+                    break;
+
+                }
+                temp = temp.next;   
+
+
+            }
+
+        }
+
+
 
 
     }

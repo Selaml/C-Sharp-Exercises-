@@ -408,15 +408,10 @@ public class Program
         lii.add(20);
         lii.add(30);
         lii.add(40);
-      var sel=  lii.insertNodeAtHead(50);
-        var sel1 = lii.insertNodeAtHead(60);
-        var sel2 = lii.insertNodeAtHead(70);
-        Console.WriteLine(sel );
+        lii.insertNodeAtHead(50);
+        lii.insertNodeAtHead(60);
+        lii.insertNodeAtHead(70);
 
-        Console.WriteLine( sel1);
-
-
-        Console.WriteLine(sel2);
         lii.display();
 
     }
