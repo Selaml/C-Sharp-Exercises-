@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -87,7 +88,7 @@ namespace ConsoleApp1
 
 
 
-        public void insertNodeAtPosition( int data, int position)
+        public Node insertNodeAtPosition( int data, int position)
         {
             if (position < 1)
             {
@@ -95,7 +96,7 @@ namespace ConsoleApp1
 
             }
             Node temp = this.head;
-
+                                                       
             while(position -- !=0 && temp != null){
             
                 if (position == 1)
@@ -107,10 +108,13 @@ namespace ConsoleApp1
                     break;
 
                 }
-                temp = temp.next;   
-
-
+                temp = temp.next;
             }
+
+
+
+            return head;
+         
 
         }
 

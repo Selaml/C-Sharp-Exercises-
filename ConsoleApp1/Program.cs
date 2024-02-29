@@ -412,7 +412,17 @@ public class Program
         lii.insertNodeAtHead(60);
         lii.insertNodeAtHead(70);
 
+
         lii.display();
+
+
+
+
+
+
+        StackUsingArrays stack = new StackUsingArrays();
+        stack.push(5);
+        stack.push(6);
 
     }
 }
