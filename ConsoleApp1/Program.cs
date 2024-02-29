@@ -423,6 +423,8 @@ public class Program
         StackUsingArrays stack = new StackUsingArrays();
         stack.push(5);
         stack.push(6);
+        stack.pop();
+        stack.push(7);
 
     }
 }

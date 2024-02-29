@@ -29,7 +29,12 @@ namespace ConsoleApp1
 
 
             Console.WriteLine(top);
+            foreach (int i in arr)
+            {
 
+
+                Console.WriteLine(i);
+            }
 
         }
         public void pop()
