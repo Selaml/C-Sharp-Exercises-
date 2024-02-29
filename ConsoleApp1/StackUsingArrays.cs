@@ -32,7 +32,6 @@ namespace ConsoleApp1
             foreach (int i in arr)
             {
 
-
                 Console.WriteLine(i);
             }
 
