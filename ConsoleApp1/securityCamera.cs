@@ -10,8 +10,8 @@ namespace ConsoleApp1
     {
         public int counttheBoxes(int[,] boxs)
         {
-            int count = 0;     
-            for(int i = 0;i<boxs.GetLength(0);i++)
+            int count = 0;
+            for (int i = 0; i < boxs.GetLength(0); i++)
             {
                 int maxNum;
 
@@ -23,10 +23,14 @@ namespace ConsoleApp1
                         int num = boxs[i, j] - 1;
                         Console.WriteLine(num);
                         count = count + num;
-                 
                     }
-                   
-                   
+                }
+            }
+        }
+
+                    }
+
+
                 }
          
 
